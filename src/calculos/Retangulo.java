@@ -1,19 +1,15 @@
-package Calculos;
+package calculos;
 
 import java.util.Scanner;
 
-public class Circulo {
+public class Retangulo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        double raio = scanner.nextDouble();
-        double area = Math.PI * raio * raio;
+        double b = scanner.nextDouble();
+        double h = scanner.nextDouble();
+        double area = b * h;
 
         System.out.println(area);
-
-
-
-
-
     }
 }
